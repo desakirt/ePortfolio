@@ -5,6 +5,7 @@
   "type": "module",
   "homepage": "https://desakirt.github.io/ePortfolio/<repository>",
   "scripts": {
+    
     "predeploy": "npm run build",
     "dev": "vite",
     "build": "vite build",
