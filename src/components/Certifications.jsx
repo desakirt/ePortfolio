@@ -16,13 +16,12 @@ const certifications = [
     link: "https://www.linkedin.com/learning/certificates/6a13b6e5d109ed9f71580b2e7a8c62835c99befc38c760cb664cd50dc25b4b61?trk=share_certificate",
   },
   {
-  title: "Inspiration. The future. Python, Ansible ++",
-  issuer: "GNS3",
-  date: "2025",
-  image: "https://www.linkedin.com/learning/certificates/6a13b6e5d109ed9f71580b2e7a8c62835c99befc38c760cb664cd50dc25b4b61?trk=share_certificate",
-  link: "https://gns3.teachable.com/courses/enrolled/502311",
-},
-
+    title: "Inspiration. The future. Python, Ansible ++",
+    issuer: "GNS3",
+    date: "2025",
+    image: "https://gns3.teachable.com/courses/502311/certificate/1d6fd3b567f82db9ff1dbf255f5d10e1f1e82b9b/Certificate.png", // Corrected to image link
+    link: "https://gns3.teachable.com/courses/enrolled/502311",
+  },
 ];
 
 const Certifications = () => {
