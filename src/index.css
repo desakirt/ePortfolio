@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --black-gradient: linear-gradient(
+    144.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
+  --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+}
+
+
+* {
+  scroll-behavior: smooth;
+}
+
+.black-gradient {
+  background: linear-gradient(
+    121.57deg,
+    #ffffff -18.56%,
+    #6d6d6d -18.47%,
+    #11101d 91.61%
+  );
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.snap-y::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.snap-y {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
