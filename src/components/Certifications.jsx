@@ -19,11 +19,10 @@ const certifications = [
     title: "Inspiration. The future. Python, Ansible ++",
     issuer: "GNS3",
     date: "2025",
-    image: "/assets/Python.jpg", // Local image path in the 'assets' folder
+    image: "/assets/python.jpg", // Local image path in the 'assets' folder
     link: "https://gns3.teachable.com/courses/enrolled/502311",
   },
 ];
-
 
 const Certifications = () => {
   return (
@@ -53,7 +52,7 @@ const Certifications = () => {
                 <img
                   src={cert.image}
                   alt={cert.title}
-                  className="w-48 h-48 mx-auto mb-4 object-contain" // Adjusted size and added object-contain
+                  className="w-full h-48 object-cover" // Set the same height and width as the project images
                 />
                 <h3 className="text-white text-xl font-bold text-center">
                   {cert.title}
