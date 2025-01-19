@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import BankingApp from "../assets/BankingApp.jpg";
 import Graphcast from "../assets/Graphcast (1).jpg";
-import BlogspaceImage from "../assets/Blogapp.jpeg";  // Import Blogspace image
+import BlogspaceImage from "../assets/Blogapp.jpeg";  // Correct the relative path if needed
 
 
 const projects = [
