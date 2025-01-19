@@ -1,27 +1,29 @@
 import { motion } from 'framer-motion';
+import jpImage from '../assets/JP.jpg';
+import azureImage from '../assets/Azure.jpg';
+import pythonImage from '../assets/python.jpg';
+
 const certifications = [
   {
     title: "JPMorgan Chase & Co - Software Engineering Job Simulation",
     issuer: "Forage",
     date: "2024",
-    image: "/assets/JP.jpg", // Path relative to public folder
-    link: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Sj7temL583QAYpHXD/E6McHJDKsQYh79moz_Sj7temL583QAYpHXD_CxaTWzYqpAzSnBRHg_1735953732911_completion_certificate.pdf",
+    image: jpImage, // Imported image
   },
   {
     title: "Microsoft Azure Fundamentals AZ900",
     issuer: "Microsoft",
     date: "2025",
-    image: "/assets/Azure.jpg", // Path relative to public folder
-    link: "https://www.linkedin.com/learning/certificates/6a13b6e5d109ed9f71580b2e7a8c62835c99befc38c760cb664cd50dc25b4b61?trk=share_certificate",
+    image: azureImage, 
   },
   {
     title: "Inspiration. The future. Python, Ansible ++",
     issuer: "GNS3",
     date: "2025",
-    image: "/assets/python.jpg", // Path relative to public folder
-    link: "https://gns3.teachable.com/courses/enrolled/502311",
+    image: pythonImage, 
   },
 ];
+
 
 
 const Certifications = () => {

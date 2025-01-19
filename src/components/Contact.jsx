@@ -30,7 +30,7 @@ const Contact = () => {
         to_email: 'kirtandesai119@gmail.com',
         message: form.message,
       },
-      'YOUR_PUBLIC_KEY'
+      'service_1kw6a0u'
     ).then(() => {
       setLoading(false);
       alert('Thank you for your message. I will get back to you soon!');
