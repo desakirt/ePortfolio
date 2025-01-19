@@ -8,23 +8,21 @@ const certifications = [
     title: "JPMorgan Chase & Co - Software Engineering Job Simulation",
     issuer: "Forage",
     date: "2024",
-    image: jpImage, // Imported image
+    image: jpImage,
   },
   {
     title: "Microsoft Azure Fundamentals AZ900",
     issuer: "Microsoft",
     date: "2025",
-    image: azureImage, 
+    image: azureImage,
   },
   {
     title: "Inspiration. The future. Python, Ansible ++",
     issuer: "GNS3",
     date: "2025",
-    image: pythonImage, 
+    image: pythonImage,
   },
 ];
-
-
 
 const Certifications = () => {
   return (
@@ -51,11 +49,13 @@ const Certifications = () => {
                 className="bg-tertiary rounded-xl p-6"
                 whileHover={{ scale: 1.05 }}
               >
-                <img
-                  src={cert.image}
-                  alt={cert.title}
-                  className="w-full h-48 object-cover" // Set the same height and width as the project images
-                />
+                <div className="w-full h-48 overflow-hidden rounded-lg mb-4">
+                  <img
+                    src={cert.image}
+                    alt={cert.title}
+                    className="w-full h-full object-cover transition-transform duration-300 hover:scale-110"
+                  />
+                </div>
                 <h3 className="text-white text-xl font-bold text-center">
                   {cert.title}
                 </h3>
@@ -67,10 +67,10 @@ const Certifications = () => {
                 </p>
                 <div className="text-center mt-4">
                   <a
-                    href={cert.link}
+                    href="#"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-white hover:text-[#915eff]"
+                    className="inline-block px-4 py-2 text-white hover:text-[#915eff] transition-colors duration-300"
                   >
                     View Certificate →  
                   </a>
