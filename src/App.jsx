@@ -4,6 +4,7 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Certifications from './components/Certifications';
+import { motion } from 'framer-motion';
 
 function App() {
   return (
