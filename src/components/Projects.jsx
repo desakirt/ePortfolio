@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import BankingApp from "../assets/BankingApp.jpg";
 import Graphcast from "../assets/Graphcast (1).jpg";
+import BlogspaceImage from "../assets/Blogapp.jpeg";  // Import Blogspace image
 
 const projects = [
   {
@@ -16,6 +17,13 @@ const projects = [
     tags: ["Python", "Firebase"],
     image: Graphcast,
     link: "https://github.com/desakirt/graphcast",
+  },
+  {
+    title: "Blogspace Application",
+    description: "Features 📝 Dynamic Blog Posts: Create, read, and manage blog entries with ease. 📱 Responsive Design: Optimized for devices of all sizes. 🎨 Modern Styling: Styled with clean and reusable CSS, using modern design principles. 🔒 TypeScript Integration: Ensures robust and error-free development with type safety. 🚀 Fast Build: Utilizes modern tooling like Vite for a fast and efficient development experience. Tech Stack Frontend",
+    tags: ["Typescript", "vite.js", "SQL"],
+    image: BlogspaceImage,  // Use Blogspace image
+    link: "https://github.com/desakirt/Blog-App",
   },
 ];
 
