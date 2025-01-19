@@ -19,10 +19,11 @@ const certifications = [
     title: "Inspiration. The future. Python, Ansible ++",
     issuer: "GNS3",
     date: "2025",
-    image: "../assets/Python.jpg", // Local image path in the 'assets' folder
+    image: "/assets/Python.jpg", // Local image path in the 'assets' folder
     link: "https://gns3.teachable.com/courses/enrolled/502311",
   },
 ];
+
 
 const Certifications = () => {
   return (

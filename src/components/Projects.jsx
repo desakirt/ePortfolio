@@ -3,6 +3,7 @@ import BankingApp from "../assets/BankingApp.jpg";
 import Graphcast from "../assets/Graphcast (1).jpg";
 import BlogspaceImage from "../assets/Blogapp.jpeg";  // Import Blogspace image
 
+
 const projects = [
   {
     title: "Banking Application",

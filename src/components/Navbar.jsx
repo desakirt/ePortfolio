@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
