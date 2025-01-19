@@ -1,7 +1,8 @@
 import { motion } from 'framer-motion';
-import jpImage from '../assets/JP.jpg';
+import jpImage from '../assets/jp.jpg';
 import azureImage from '../assets/Azure.jpg';
 import pythonImage from '../assets/python.jpg';
+
 
 const certifications = [
   {
