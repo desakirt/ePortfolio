@@ -1,26 +1,24 @@
 import { motion } from 'framer-motion';
-import jpImage from '../assets/JP.jpg';
-import azureImage from '../assets/Azure.jpg';
-import pythonImage from '../assets/python.jpg';
+
 
 const certifications = [
   {
     title: "JPMorgan Chase & Co - Software Engineering Job Simulation",
     issuer: "Forage",
     date: "2024",
-    image: jpImage,
+    image: "https://th.bing.com/th/id/OIP.I9RculMi86WxL_DbvQ48DgHaEK?rs=1&pid=ImgDetMain",
   },
   {
     title: "Microsoft Azure Fundamentals AZ900",
     issuer: "Microsoft",
     date: "2025",
-    image: azureImage,
+    image: "https://th.bing.com/th/id/OIP.7TmzQPd9omvkagiD0ZGzqQHaHa?rs=1&pid=ImgDetMain",
   },
   {
     title: "Inspiration. The future. Python, Ansible ++",
     issuer: "GNS3",
     date: "2025",
-    image: pythonImage,
+    image: "https://th.bing.com/th/id/OIP.3hO2_6q8K-oVawVNJMG1xwHaEK?rs=1&pid=ImgDetMain",
   },
 ];
 
@@ -46,14 +44,14 @@ const Certifications = () => {
                 whileInView={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.5, delay: index * 0.2 }}
                 viewport={{ once: true }}
-                className="bg-tertiary rounded-xl p-6"
+                className="bg-tertiary rounded-xl p-6 shadow-lg"
                 whileHover={{ scale: 1.05 }}
               >
-                <div className="w-full h-48 overflow-hidden rounded-lg mb-4">
+                <div className="w-full h-48 overflow-hidden rounded-lg mb-4 aspect-w-16 aspect-h-9">
                   <img
                     src={cert.image}
                     alt={cert.title}
-                    className="w-full h-full object-cover transition-transform duration-300 hover:scale-110"
+                    className="w-full h-full object-contain transition-transform duration-300 hover:scale-110 rounded-lg"
                   />
                 </div>
                 <h3 className="text-white text-xl font-bold text-center">
