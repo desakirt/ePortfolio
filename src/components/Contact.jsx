@@ -2,6 +2,11 @@ import { useState, useRef } from 'react';
 import { motion } from 'framer-motion';
 import emailjs from '@emailjs/browser';
 
+// Hardcode the service, template, and user IDs directly
+const SERVICE_ID = service_6ata5vg;  // Replace with your actual service ID
+const TEMPLATE_ID = template_c48t9cr;  // Replace with your actual template ID
+const USER_ID = tk56EG_mErSVSOfdb;  // Replace with your actual user ID
+
 const Contact = () => {
   const formRef = useRef();
   const [loading, setLoading] = useState(false);
@@ -20,9 +25,10 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
+    // Send email using emailjs
     emailjs.send(
-      'service_1kw6a0u',
-      'template_c48t9cr',
+      SERVICE_ID,
+      TEMPLATE_ID,
       {
         from_name: form.name,
         to_name: 'Kirtan Desai',
@@ -30,7 +36,7 @@ const Contact = () => {
         to_email: 'kirtandesai119@gmail.com',
         message: form.message,
       },
-      'service_1kw6a0u'
+      USER_ID
     ).then(() => {
       setLoading(false);
       alert('Thank you for your message. I will get back to you soon!');

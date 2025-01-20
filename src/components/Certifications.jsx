@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import jpImage from '../assets/jp.jpg';
-import azureImage from '../assets/Azure.jpg';
+import azureImage from '../assets/azure.jpg';
 import pythonImage from '../assets/python.jpg';
 
 
