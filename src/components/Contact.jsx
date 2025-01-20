@@ -3,9 +3,9 @@ import { motion } from 'framer-motion';
 import emailjs from '@emailjs/browser';
 
 // Hardcode the service, template, and user IDs directly
-const SERVICE_ID = service_6ata5vg;  // Replace with your actual service ID
-const TEMPLATE_ID = template_c48t9cr;  // Replace with your actual template ID
-const USER_ID = tk56EG_mErSVSOfdb;  // Replace with your actual user ID
+const SERVICE_ID = 'service_6ata5vg';  // Replace with your actual service ID
+const TEMPLATE_ID = 'template_c48t9cr';  // Replace with your actual template ID
+const USER_ID = 'tk56EG_mErSVSOfdb';  // Replace with your actual user ID
 
 const Contact = () => {
   const formRef = useRef();
